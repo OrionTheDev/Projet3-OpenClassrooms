@@ -1,0 +1,115 @@
+body {
+  font-family: "Roboto", sans-serif;
+  margin: -21px auto;
+}
+/*HEADER*/
+
+.header {
+  background-color: white;
+  position: relative;
+  text-align: center;
+  padding-top: 10px;
+  box-shadow: 0 2px 5px rgb(0 0 0 / 40%);
+}
+
+header h1 {
+  font-family: "Shrikhand", "cursive";
+  margin-bottom: 0;
+}
+
+/*END HEADER*/
+
+/*MAIN*/
+
+.local {
+  background-color: #f3f3f3;
+  padding: 5px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.local i {
+  margin-right: 15px;
+}
+.local h2 {
+  font-family: "Roboto";
+}
+/*END MAIN */
+
+/* EXPLORER*/
+
+.explorer .description {
+  background-color: #f7f7f7;
+  padding: 5px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.explorer h3 {
+  font-size: 24px;
+  margin-left: 51px;
+  margin-right: 74px;
+  text-align: center;
+}
+
+.explorer p {
+  font-size: 17px;
+  color: #878787;
+  text-align: center;
+  margin: 0;
+  margin-left: 25px;
+  margin-right: 20px;
+}
+.explorer .btn {
+  margin: 25px 0px 15px 0px;
+  color: white;
+  border-radius: 50px 50px 50px 50px;
+  padding: 15px 20px 15px 20px;
+  background: linear-gradient(176deg, #ff79da 0%, #9356dc 100%);
+  cursor: pointer;
+}
+
+#btn:hover {
+  background-color: black;
+}
+
+.btn:hover {
+  background: linear-gradient(176deg, #ff79da 0%, #9356dc 100%);
+  transition: 0.2s ease-in-out;
+  filter: brightness(1.1);
+}
+
+.choose-restaurant {
+  padding: 16px 16px;
+}
+.container-btn-choose {
+  display: flex;
+  width: auto;
+  align-content: center;
+  align-items: center;
+  gap: 20px;
+  padding: 10px 0 10px 0;
+  margin-left: 20px;
+  padding-left: 10px;
+  background-color: #f6f6f6;
+  border-radius: 20px 20px 20px 20px;
+}
+
+.container-btn-choose .number-list {
+  display: flex;
+  background-color: #9355dc;
+  color: white;
+  border: 2px solid #9356dc;
+  border-radius: 50px;
+  height: 10px;
+  padding: 5px;
+  align-items: center;
+  margin-left: -21px;
+}
+.container-btn-choose p {
+  font-size: 16px;
+}

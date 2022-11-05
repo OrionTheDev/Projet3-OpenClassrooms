@@ -1,0 +1,54 @@
+@use "variables" as *;
+
+@mixin btn-choose {
+  display: flex;
+  width: auto;
+  align-content: center;
+  align-items: center;
+  gap: 20px;
+  padding: 10px 0 10px 0;
+  margin-left: 10px;
+  padding-left: 10px;
+  background-color: $thirdly;
+  border-radius: 20px 20px 20px 20px;
+  margin-bottom: 1rem;
+  box-shadow: 0 3px 10px rgb(0 0 0 / 20%);
+}
+
+@mixin btn {
+  margin: 25px 0px 15px 0px;
+  color: $thirdly;
+  border-radius: 50px 50px 50px 50px;
+  padding: 15px 20px 15px 20px;
+  background: linear-gradient(176deg, $secondary 0%, $primary 100%);
+  cursor: pointer;
+  box-shadow: 0 3px 6px rgb(0 0 0 / 40%);
+}
+@mixin hover {
+  transition: 0.2s ease-in-out;
+  filter: brightness(1.1);
+}
+
+@mixin container-heart {
+  position: relative;
+  top: -35px;
+  font-size: 25px;
+}
+
+.full {
+  position: relative;
+  left: -25px;
+  font-size: 25px;
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+  transform: scale(1);
+  transition: transform 400ms;
+
+  &:hover {
+    background: -webkit-linear-gradient(176deg, $secondary 0%, $primary 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    transform: scale(1.15);
+  }
+}

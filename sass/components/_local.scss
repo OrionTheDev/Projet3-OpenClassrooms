@@ -1,0 +1,19 @@
+@use "../utils/" as *;
+
+.local {
+  background-color: #e9eaea;
+  padding: 5px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.local i {
+  margin-right: 15px;
+}
+.local h2 {
+  font-family: "Roboto";
+  font-weight: 400;
+  font-size: 17px;
+}

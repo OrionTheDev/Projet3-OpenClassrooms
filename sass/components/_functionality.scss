@@ -1,0 +1,35 @@
+@use "../utils/" as *;
+
+/* choose-restaurant*/
+.choose-restaurant {
+  padding: 16px 16px;
+}
+
+.container-btn-choose:hover {
+  background-color: #f5edff;
+  & i::before {
+    color: $primary;
+  }
+}
+
+.container-btn-choose {
+  @include btn-choose;
+}
+
+.container-btn-choose .number-list {
+  display: flex;
+  background-color: $primary;
+  color: $thirdly;
+  border-radius: 50px;
+  height: 10px;
+  padding: 7px;
+  align-items: center;
+  margin-left: -21px;
+}
+.container-btn-choose p {
+  font-size: 16px;
+  font-weight: 500;
+}
+.container-btn-choose i {
+  color: #7e7e7e;
+}

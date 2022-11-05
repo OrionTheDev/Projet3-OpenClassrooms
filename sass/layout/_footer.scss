@@ -1,0 +1,36 @@
+@use "../utils/" as *;
+
+footer {
+  background-color: #363636;
+  padding-left: 10px;
+  margin-bottom: -1rem;
+  
+}
+
+footer h3 {
+  font-family: "Shrikhand", "cursive";
+  color: $thirdly;
+  padding-top: 20px;
+  font-weight: 100;
+  text-rendering: geometricPrecision;
+}
+
+footer ul {
+  list-style: none;
+  padding-bottom: 1rem;
+  padding-left: 1rem;
+}
+
+footer li {
+  margin-bottom: 8px;
+}
+
+.footer-link {
+  text-decoration: none;
+  color: $thirdly;
+}
+.footer-icon {
+  margin-right: 10px;
+  width: 1rem;
+  font-size: small;
+}

@@ -2,8 +2,27 @@
 
 /* choose-restaurant*/
 .choose-restaurant {
-  padding: 16px 16px;
+  padding: 25px 15px 50px 15px;
 }
+
+.choose-restaurant-title{
+  @media screen and (min-width: 1224px) {
+  display: flex;
+  margin-top:2rem;
+  margin-bottom:2rem;}
+  font-size:20px;
+  justify-content:center;
+ 
+}
+
+
+.container-btn {
+@media screen and (min-width: 1224px) {
+  display: flex;
+  justify-content: space-evenly;}
+}
+
+
 
 .container-btn-choose:hover {
   background-color: #f5edff;
@@ -14,7 +33,10 @@
 
 .container-btn-choose {
   @include btn-choose;
-}
+  @media screen and (min-width: 1224px) {
+    padding: 10px 60px 10px 0;
+}}
+
 
 .container-btn-choose .number-list {
   display: flex;

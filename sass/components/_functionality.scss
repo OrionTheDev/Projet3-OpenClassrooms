@@ -20,8 +20,10 @@
 .container-btn {
 @media screen and (min-width: 768px) {
   display: flex;
-  justify-content: space-evenly;}
+  justify-content: space-evenly;
+  }
 }
+
 
 
 
@@ -36,7 +38,10 @@
   @include btn-choose;
   @media screen and (min-width: 1224px) {
     padding: 10px 60px 10px 0;
+    
 }}
+
+
 
 
 .container-btn-choose .number-list {

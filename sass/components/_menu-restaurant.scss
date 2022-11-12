@@ -11,7 +11,7 @@
     padding-bottom: 40px;
 margin-bottom:2rem;
 
-  @media screen and (min-width: 1224px) {
+  @media screen and (min-width: 768px) {
 margin-bottom:-2rem;
   }
 
@@ -24,9 +24,9 @@ margin-bottom:-2rem;
   margin-left: 10px;
   font-family: "Shrikhand", cursive;
   font-size: 14px;
-  padding-top: 2rem;
+  padding-top:2rem;
 
-  @media screen and (min-width: 1224px) {
+  @media screen and (min-width: 768px) {
     margin-left:10rem;
   }
 }
@@ -48,7 +48,7 @@ margin-bottom:-2rem;
 
 
 .container-bloc-menu{ 
-  @media screen and (min-width: 1224px) {
+  @media screen and (min-width: 768px) {
     display: flex; 
     height: 450px;
     margin-bottom:1rem;
@@ -59,7 +59,7 @@ margin-bottom:-2rem;
   
 .bloc-menu {
   margin-bottom:3rem;
-  @media screen and (min-width: 1224px) {
+  @media screen and (min-width: 768px) {
     display: inline-block;
     margin-left:9rem;
   }
@@ -77,7 +77,7 @@ margin-bottom:-2rem;
   transition: 1s;
   overflow: hidden;
   animation: fadeInBottom 1s;
-  @media screen and (min-width: 1224px) {
+  @media screen and (min-width: 768px) {
     width: 400px};
 }
 

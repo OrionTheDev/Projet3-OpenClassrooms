@@ -525,8 +525,7 @@ img {
   background: rgba(0, 0, 0, 0.9);
   align-items: center;
   justify-content: center;
-  animation-duration: end_loader 2s forwards;
-  -webkit-animation: end_loader 2s forwards;
+  animation: end_loader 2s forwards;
 }
 .page-loader .loadercontainer {
   position: relative;
@@ -557,8 +556,6 @@ img {
   border-top: 7px solid #99e2d0;
   border-right: 7px solid transparent;
   animation: rotation 4s linear infinite;
-  animation-duration: rotation 3s forwards;
-  -webkit-animation: rotation 3s forwards;
 }
 .page-loader .loader::after {
   content: "";
